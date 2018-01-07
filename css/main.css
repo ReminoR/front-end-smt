@@ -1038,6 +1038,10 @@ to {transform: translateY(10px)}
         padding-top: 15px;
     }
 }
+footer h4, footer h5, footer h6,
+footer .h4, footer .h5, footer .h6 {
+    color: #fff;
+}
 footer {
     background: url(../img/bg_slider.jpg) no-repeat;
     position: relative;
@@ -1069,6 +1073,20 @@ footer:after {
 .footer__copyright {
     color: #fff;
     text-align: right;
+}
+.footer__our_partners {
+    text-align: center;
+}
+.our_partners {
+    text-align: center;
+}
+.our_partners__item {
+    width: 120px;
+    display: inline-block;
+}
+.our_partners__item img {
+    border-radius: 15px;
+    width: 100%;
 }
 @media screen and (max-width:768px) {
     footer {
